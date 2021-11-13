@@ -1,0 +1,142 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-repeat: no-repeat;
+    background:linear-gradient(
+        115deg, rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)),url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg'); ;
+}
+#header{
+    text-align: center;
+    margin-top:60px;
+    color: white;
+    
+}
+h1{
+    font-weight: 400px;
+    line-height:1.2;
+}
+p{
+    font-size: 1.125rem;
+    color: white;
+}
+h1,p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  
+}
+
+    label {
+        display: flex;
+        align-items: center;
+        font-size: 1.125rem;
+        margin-bottom: 0.5rem;
+        color:white;
+        margin-left: 50px;
+        margin-top:10px;
+      }
+      input,
+button,select,textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+#survy-form{
+    width:600px;
+    height:1100px;
+    background-color:#1b1b32;
+    margin: auto;
+}
+#name{
+    color:white;
+    width:500px;
+    height:30px;
+    margin:0px 50px 0px 50px;
+    border-radius: 5px;
+}
+#email{
+    color:white;
+    width:500px;
+    height:30px;
+    margin:0px 50px 0px 50px;
+    border-radius: 5px;
+}
+#number{
+    color:white;
+    width:500px;
+    height:30px;
+    margin:0px 50px 0px 50px;
+    border-radius: 5px;
+}
+input:placeholder-shown{
+    border:5px solid white;
+}
+#survy-form p{
+    margin-left: 50px;
+}
+#dropdown{
+    margin-left:50px;
+    width:510px;
+    height:30px;
+    border-radius:5px;
+}
+#most-like{
+    margin-left: 50px;
+    width:500px;
+    height:30px;
+    border-radius:5px;
+}
+#comments{
+    width:490px;
+    height:100px;
+    margin-left:50px;
+    
+}
+textarea:placeholder-shown{
+    border:5px solid white;
+    font-size: 20px;
+}
+#submit{
+    margin-left:50px;
+    width:500px;
+    height:30px;
+    background-color:rgb(141, 241, 141);
+    text-align: center;
+    margin-top:15px;
+    color:white;
+}
+@media (max-width:660px){
+    #survy-form{
+         width:300px;
+    }
+    #name{
+        width:200px;
+    }
+    #email{
+        width:200px;
+    }
+    #number{
+        width:200px;
+    }
+    #dropdown{
+        width:210px;
+    }
+    #most-like{
+        width:210px;
+    }
+    #comments{
+        width:200px;
+        height:50px;
+    }
+    #submit{
+        width:200px;
+        height:30px;
+    }
+}
